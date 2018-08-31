@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B11F4F76213941C2000699C4 /* GoalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11F4F75213941C2000699C4 /* GoalCell.swift */; };
+		B11F4F7821394BFC000699C4 /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11F4F7721394BFC000699C4 /* GoalType.swift */; };
+		B11F4F7A213954EA000699C4 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11F4F79213954EA000699C4 /* UIViewControllerExtension.swift */; };
+		B11F4F7C2139586E000699C4 /* AddGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11F4F7B2139586E000699C4 /* AddGoalVC.swift */; };
+		B11F4F7E213966E6000699C4 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11F4F7D213966E6000699C4 /* UIViewExtension.swift */; };
+		B11F4F8021396E39000699C4 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11F4F7F21396E39000699C4 /* UIButtonExtension.swift */; };
 		B17EF368213904160028C23D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17EF367213904160028C23D /* AppDelegate.swift */; };
-		B17EF36A213904160028C23D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17EF369213904160028C23D /* ViewController.swift */; };
 		B17EF36D213904160028C23D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B17EF36B213904160028C23D /* Main.storyboard */; };
 		B17EF370213904160028C23D /* GoalPost.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B17EF36E213904160028C23D /* GoalPost.xcdatamodeld */; };
 		B17EF372213904210028C23D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B17EF371213904210028C23D /* Assets.xcassets */; };
 		B17EF375213904210028C23D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B17EF373213904210028C23D /* LaunchScreen.storyboard */; };
+		B17EF37D213904500028C23D /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17EF37C213904500028C23D /* MainVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B11F4F75213941C2000699C4 /* GoalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCell.swift; sourceTree = "<group>"; };
+		B11F4F7721394BFC000699C4 /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
+		B11F4F79213954EA000699C4 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		B11F4F7B2139586E000699C4 /* AddGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGoalVC.swift; sourceTree = "<group>"; };
+		B11F4F7D213966E6000699C4 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		B11F4F7F21396E39000699C4 /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
 		B17EF364213904160028C23D /* GoalPost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoalPost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B17EF367213904160028C23D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B17EF369213904160028C23D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B17EF36C213904160028C23D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B17EF36F213904160028C23D /* GoalPost.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoalPost.xcdatamodel; sourceTree = "<group>"; };
 		B17EF371213904210028C23D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B17EF374213904210028C23D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B17EF376213904210028C23D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B17EF37C213904500028C23D /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,53 @@
 		B17EF366213904160028C23D /* GoalPost */ = {
 			isa = PBXGroup;
 			children = (
-				B17EF367213904160028C23D /* AppDelegate.swift */,
-				B17EF369213904160028C23D /* ViewController.swift */,
-				B17EF36B213904160028C23D /* Main.storyboard */,
+				B17EF381213904790028C23D /* Controllers */,
+				B17EF380213904700028C23D /* Views */,
+				B17EF37F2139045D0028C23D /* Extensions */,
+				B17EF37E213904550028C23D /* Enums */,
 				B17EF371213904210028C23D /* Assets.xcassets */,
-				B17EF373213904210028C23D /* LaunchScreen.storyboard */,
 				B17EF376213904210028C23D /* Info.plist */,
 				B17EF36E213904160028C23D /* GoalPost.xcdatamodeld */,
 			);
 			path = GoalPost;
+			sourceTree = "<group>";
+		};
+		B17EF37E213904550028C23D /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				B11F4F7721394BFC000699C4 /* GoalType.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		B17EF37F2139045D0028C23D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B11F4F79213954EA000699C4 /* UIViewControllerExtension.swift */,
+				B11F4F7D213966E6000699C4 /* UIViewExtension.swift */,
+				B11F4F7F21396E39000699C4 /* UIButtonExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B17EF380213904700028C23D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B17EF36B213904160028C23D /* Main.storyboard */,
+				B17EF373213904210028C23D /* LaunchScreen.storyboard */,
+				B11F4F75213941C2000699C4 /* GoalCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B17EF381213904790028C23D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B17EF367213904160028C23D /* AppDelegate.swift */,
+				B17EF37C213904500028C23D /* MainVC.swift */,
+				B11F4F7B2139586E000699C4 /* AddGoalVC.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +188,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B17EF36A213904160028C23D /* ViewController.swift in Sources */,
+				B11F4F76213941C2000699C4 /* GoalCell.swift in Sources */,
+				B11F4F7821394BFC000699C4 /* GoalType.swift in Sources */,
+				B11F4F7A213954EA000699C4 /* UIViewControllerExtension.swift in Sources */,
+				B11F4F7C2139586E000699C4 /* AddGoalVC.swift in Sources */,
 				B17EF368213904160028C23D /* AppDelegate.swift in Sources */,
+				B11F4F8021396E39000699C4 /* UIButtonExtension.swift in Sources */,
+				B17EF37D213904500028C23D /* MainVC.swift in Sources */,
+				B11F4F7E213966E6000699C4 /* UIViewExtension.swift in Sources */,
 				B17EF370213904160028C23D /* GoalPost.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +343,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E5M43CWNPK;
 				INFOPLIST_FILE = GoalPost/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +362,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E5M43CWNPK;
 				INFOPLIST_FILE = GoalPost/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
